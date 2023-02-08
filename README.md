@@ -193,3 +193,112 @@ This data set contains sex, age, children,ibm and region columns. It contains me
 
 &nbsp; &nbsp; &nbsp; &nbsp;
 
+## 9.	Exploratory data analysis
+
+First, I import the dataset into the dataframe with the standard read_csv () function of pandas library and assign it to the data variable. Then, I conducted exploratory data analysis to get a feel for the data.
+I checked the dimensions of dataframe with the shape attribute of the dataframe. I viewed the top 5 rows of the dataframe with the pandas head() method. I viewed the dataframe summary with the pandas info() method and descriptive statistics with the describe() method. 
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+## 10.	Mechanics of Linear Regression
+
+The mechanics of Linear Regression model starts with splitting the dataset into two sets – the training set and the test set. We instantiate the regressor lm and fit it on the training set with the fit method. In this step, the model learned the correlations between the training data (X_train, y_train). 
+Now the model is ready to make predictions on the test data (X_test). Hence, I predict on the test data using the predict method. 
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 11.	Model slope and intercept term
+
+The model slope is given by lm.coef_ and model intercept term is given by lm.intercept_. The estimated model slope and intercept values are 1.60509347 and  3.16003616.
+
+So, the equation of the fitted regression line is
+
+y = 1.60509347 * x=3.16003616  
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+## 13.	Regression metrics for model performance
+
+Now, it is the time to evaluate model performance. For regression problems, there are 3 ways to compute the model performance. They are RMSE (Root Mean Square Error),RMA and RSE Value. These are explained below:-  
+
+###	i.	RMSE
+
+RMSE is the standard deviation of the residuals. So, RMSE gives us the standard deviation of the unexplained variance by the model. It can be calculated by taking square root of Mean Squared Error.
+RMSE is an absolute measure of fit. It gives us how spread the residuals are, given by the standard deviation of the residuals. The more concentrated the data is around the regression line, the lower the residuals and hence lower the standard deviation of residuals. It results in lower values of RMSE. So, lower values of RMSE indicate better fit of data. 
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+## 14.	Interpretation and Conclusion
+
+The RMSE value has been found to be 1.658. It means the standard deviation for our prediction is 1.658. So, sometimes we expect the predictions to be off by more than 1.658 and other times we expect less than 1.6583. So, the model is not good fit to the data. 
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 15.	Residual analysis
+
+A linear regression model may not represent the data appropriately. The model may be a poor fit to the data. So, we should validate our model by defining and examining residual plots.
+
+The difference between the observed value of the dependent variable (y) and the predicted value (ŷi) is called the residual and is denoted by e. The scatter-plot of these residuals is called residual plot.
+
+If the data points in a residual plot are randomly dispersed around horizontal axis and an approximate zero residual mean, a linear regression model may be appropriate for the data. Otherwise a non-linear model may be more appropriate.
+
+If we take a look at the generated ‘Residual errors’ plot, we can clearly see that the train data plot pattern is non-random. Same is the case with the test data plot pattern.
+So, it suggests a better-fit for a non-linear model. 
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 16.	Checking for Overfitting and Underfitting
+
+I calculate training set score as 0.2861. Similarly, I calculate test set score as 0.5789. 
+The training set score is very poor. So, the model does not learn the relationships appropriately from the training data. Thus, the model performs poorly on the training data. It is a clear sign of Underfitting. Hence, I validated my finding that the linear regression model does not provide good fit to the data. 
+
+Underfitting means our model performs poorly on the training data. It means the model does not capture the relationships between the training data. This problem can be improved by increasing model complexity. We should use more powerful models like Polynomial regression to increase model complexity. 
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 17.	Simple Linear Regression - Model Assumptions
+
+
+The Linear Regression Model is based on several assumptions which are listed below:-
+
+
+i.	Linear relationship
+
+ii.	Multivariate normality
+
+iii.	No or little multicollinierlity 
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 18.	 References
+
+
+The concepts and ideas in this project have been taken from the following websites and books:-
+ 
+ i. https://en.wikipedia.org/wiki/Linear_regression
+ 
+ ii.https://en.wikipedia.org/wiki/Simple_linear_regression
+ 
+ III.  https://en.wikipedia.org/wiki/Ordinary_least_squares
+ 
+ iv.  https://en.wikipedia.org/wiki/Root-mean-square_deviation
+ 
+ v. https://en.wikipedia.org/wiki/Coefficient_of_determination
+ 
+ iv. https://www.statisticssolutions.com/assumptions-of-linear-regression/
+ 
+ iiv. Python Data Science Handbook by Jake VanderPlas
+ 
+ iiv. Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron
+ 
+
+
+
