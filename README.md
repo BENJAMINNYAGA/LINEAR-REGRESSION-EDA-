@@ -2,7 +2,7 @@
 # Simple Linear Regression Project 
 
 
-## Modelling the linear relationship between Sales and Advertising Dataset
+## Modelling the linear relationship between the various features of a medical insurance like age, sex, ibm and children Dataset
 
 &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -25,11 +25,12 @@ The contents of this project are divided into following topics which are listed 
 8.	About the dataset
 9.	Exploratory data analysis
 10.	Mechanics of Simple Linear Regression
-11.	Model slope and intercept term
 12.	Making predictions
-13.	Regression metrics for model performance
-i.	    RMSE
-ii.	    R2 Score
+13.	Regression metrics for model performance like
+ i.     RMSE
+ii.      MSE
+III.     MAE
+
 14.	Interpretation and conclusion
 15.	Residual analysis
 16.	Checking for Overfitting or Underfitting the data
@@ -40,5 +41,5 @@ ii.	    R2 Score
 
 ## 1.	Introduction
 
-In this project, I build a Simple Linear Regression model to study the linear relationship between Sales and Advertising dataset for a dietary weight control product. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language.
+In this project, I build a Simple Linear Regression model to study the linear relationship between Age, sex, region, ibm and the target variable "charges" of the medical insurance dataset. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language.
  
