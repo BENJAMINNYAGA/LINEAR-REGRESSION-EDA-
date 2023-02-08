@@ -1,28 +1,44 @@
-#Exploratory data analysis using linear regression model
- ##Hello world my name is Benjamin nyaga.
-I am an upcoming data analyst and this is my project
-**This project is about solving a technology problem
-Of machine learning algorithms
-###Technologies used:
--python programming
--Machine learning 
--I underwent a series of steps to to accomblish the task 
-Which involved
-  *Analysing a medical insurance dataset 
-   *Extracting some desirable features from the dataset
-    *Building a machine learning algorithm 
-    *Training the machine learning algorithm
-    *Fitting the machine learning algorithm with the trained data
-   *Evaluating the linear regression model in terms of RMSE,MAE and MSE
-####STEPS INVOLVED
-1.importing python libraries
-2.loading the dataset for analysing
-3.Cleaning the data to extract features that can be understandiable to a machine
-4.Python modules to design a Linear regression model
-5.Training the machine learning using the cleaned data
-6.Using the machine learning model to predict the possible outcomes 
-  
+
+# Simple Linear Regression Project 
 
 
-The uploaded file above shows the full explanation of the steps used 
-#####The aim of the project was to solve the linear regression model in terms of RMSE MAE and MSE 
+## Modelling the linear relationship between Sales and Advertising Dataset
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+The contents of this project are divided into following topics which are listed as follows:- 
+
+
+
+
+## Table of Contents
+
+
+1.	Introduction
+2.	License information
+3.	Python libraries
+4.	The problem statement
+5.	Linear Regression
+6.	Independent and dependent variable
+7.	Simple Linear Regression (SLR)
+8.	About the dataset
+9.	Exploratory data analysis
+10.	Mechanics of Simple Linear Regression
+11.	Model slope and intercept term
+12.	Making predictions
+13.	Regression metrics for model performance
+i.	    RMSE
+ii.	    R2 Score
+14.	Interpretation and conclusion
+15.	Residual analysis
+16.	Checking for Overfitting or Underfitting the data
+17.	Simple Linear Regression - Model Assumptions
+18.	References
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+## 1.	Introduction
+
+In this project, I build a Simple Linear Regression model to study the linear relationship between Sales and Advertising dataset for a dietary weight control product. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language.
+ 
