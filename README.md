@@ -295,9 +295,7 @@ The concepts and ideas in this project have been taken from the following websit
  
  iv. https://www.statisticssolutions.com/assumptions-of-linear-regression/
  
- iiv. Python Data Science Handbook by Jake VanderPlas
- 
- iiv. Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron
+
  
 
 
