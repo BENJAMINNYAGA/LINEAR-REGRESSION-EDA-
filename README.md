@@ -43,3 +43,26 @@ III.     MAE
 
 In this project, I build a Simple Linear Regression model to study the linear relationship between Age, sex, region, ibm and the target variable "charges" of the medical insurance dataset. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language.
  
+## 2.	License information
+
+The work done in this Jupyter notebook is made available under the Creative Commons Attribution License 4.0. 
+
+I have licensed this Jupyter notebook for general public. The work done in this project is for learning and demonstration purposes. 
+  
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 3.	Python libraries
+
+I have Anaconda Python distribution installed on my system. It comes with most of the standard Python libraries I need for this project. The basic Python libraries used in this project are:-
+
+ •	Numpy – It provides a fast numerical array structure and operating functions.
+ 
+ •	pandas – It provides tools for data storage, manipulation and analysis tasks.
+ 
+ •	Scikit-Learn – The required machine learning library in Python.
+ 
+ •	Matplotlib – It is the basic plotting library in Python. It provides tools for making plots. 
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
